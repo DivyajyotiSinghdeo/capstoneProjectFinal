@@ -2,12 +2,15 @@
     background-color: #26292c; /* Change to desired color */
     padding: 0.5rem 1rem; /* Padding for spacing */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+//     background: transparent;
+//     backdrop-filter: blur(9px);
 }
 
 .navbar-brand {
     font-size: 1.5rem; /* Larger font size for brand */
     font-weight: bold; /* Bold font for brand */
     color: #fff; /* Light color for brand */
+    
 }
 
 .logo-black {
@@ -15,7 +18,7 @@
 }
 
 .logo-blue {
-  color: red;
+  color: orange;
 }
 
 .navbar-toggler {

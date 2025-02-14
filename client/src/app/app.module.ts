@@ -21,6 +21,7 @@ import { Navbar } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { ShipmentsComponent } from './shipments/shipments.component';
 import { FooterComponent } from './footer/footer.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import { FooterComponent } from './footer/footer.component';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
+    BrowserAnimationsModule,
   ],
   providers: [HttpService,HttpClientModule  ,{provide:ErrorHandler,useClass:GlobalErrorHandler}],
   bootstrap: [AppComponent]
